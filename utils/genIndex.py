@@ -1,10 +1,20 @@
 #coding: utf-8
 import os
 import re
+from functools import partial
 import markdown
 import shutil
 from getSize import getSize
 from config import PATH, HTML, WALKDIR, TARDIR, IGNORE, NAME, DOWNLOAD
+
+URL = 'https://github.com/USTC-Resource/USTC-Course/tree/master/'
+ImagePT = re.compile(r'\!\[(.*?)\]\(([a-zA-Z\d\.].*?)\)')
+
+
+def subFunc(match,pre):
+    name, suf = match.groups()
+    return f'![{name}]({pre+"/"+suf})'
+
 hasPinyin = False
 try:
     from pypinyin import pinyin
@@ -120,7 +130,7 @@ def genIndex(path, dirs, files, htmlTemp=HTML):
         readme=md2html(md))
     filename = os.path.join(tar, NAME)
     with open(filename, 'w') as f:
-        f.write(cont)
+        f.write(re.sub(ImagePT,partial(subFunc,pre = URL+path),cont))
 
 
 def getPath(path):

@@ -1,5 +1,8 @@
 
+![](images/logo.png)
+
 # 中国科学技术大学课程资源
+
 [![Stars](https://img.shields.io/github/stars/USTC-Resource/USTC-Course.svg?label=Stars&style=social)](https://github.com/USTC-Resource/USTC-Course/stargazers)
 [![Forks](https://img.shields.io/github/forks/USTC-Resource/USTC-Course.svg?label=Forks&style=social)](https://github.com/USTC-Resource/USTC-Course/network/members)
 [![Build](https://travis-ci.org/USTC-Resource/USTC-Course.svg?branch=master)](https://travis-ci.org/USTC-Resource/USTC-Course?branch=master)
@@ -76,7 +79,7 @@ course
 └ README.md
 ```
 # 课程关系
-![](https://user-images.githubusercontent.com/29198767/53245024-851b1280-36e7-11e9-9d22-7ee65446c68a.png)
+![](images/course.png)
 
 更多信息可以下载[官网的培养方案](https://www.teach.ustc.edu.cn/education/241.html/attachment/14-215%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E9%99%A2-2013)
 
@@ -88,7 +91,11 @@ course
     * [操作系统原理与设计](./操作系统原理与设计)
     * [c程序设计](./c程序设计)
     * [代数结构](./代数结构)
+    * [概率论与数理统计](./概率论与数理统计)
     * [光学与原子物理](./光学与原子物理)
+    * [images](./images)
+    * [计算方法](./计算方法)
+    * [计算机图像学](./计算机图像学)
     * [计算机网络](./计算机网络)
     * [计算机系统详解](./计算机系统详解)
     * [计算机与信息类](./计算机与信息类)
@@ -102,11 +109,13 @@ course
     * [utils](./utils)
     * [Web-信息处理与应用](./Web-信息处理与应用)
     * [微机原理与系统](./微机原理与系统)
+    * [自然语言处理](./自然语言处理)
 
 # 贡献投稿
-[这里是](https://github.com/USTC-Resource/USTC-Course/graphs/contributors) GitHub commit 贡献名单
-内容创作者包括：
+## [GitHub Commit](https://github.com/USTC-Resource/USTC-Course/graphs/contributors)
+[![](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/images/0)](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/links/0)[![](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/images/1)](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/links/1)[![](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/images/2)](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/links/2)[![](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/images/3)](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/links/3)[![](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/images/4)](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/links/4)[![](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/images/5)](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/links/5)[![](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/images/6)](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/links/6)[![](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/images/7)](https://sourcerer.io/fame/mbinary/USTC-Resource/USTC-Course/links/7)
 
+## 内容创作者
 - mbinary
 - Lyncien
 - kingzevin
@@ -114,13 +123,14 @@ course
 - cclauss
 - 吴颖文
 - 童世炜
+- 熊家靖
 
 如果遗漏了你的名字，可自行 PR 或者联系贡献者。
 
 欢迎大家的参与与贡献^_^
 * 仅接受学生原创的或者获得授权的资源
 * github 上不能直接上传大于 100mb 的文件。对于超过 100 mb 的文件，可以存在网盘，然后在 README 文件中贴上链接
-* 文件内容的改动会使 git 重新上传, 在没有必要的情况下, 不要对二进制文件做任何更改.
+* 文件内容的改动会使 git 重新上传, 在没有必要的情况下, 不要对二进制文件做任何更改。
 
 <!--
 可以通过如下方式贡献
